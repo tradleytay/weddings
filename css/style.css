@@ -361,6 +361,9 @@ img { display: block; max-width: 100%; }
 .site-footer { display: flex; min-height: 100px; align-items: center; justify-content: space-between; gap: 20px; padding: 22px clamp(22px, 6vw, 95px); background: #091f68; color: rgba(255,255,240,.75); }
 .wordmark--footer { color: var(--ivory); }
 .site-footer p { margin: 0; font-family: var(--serif); font-size: .88rem; font-style: italic; }
+.creator-credit { color: rgba(255,255,240,.72); font-size: .62rem; letter-spacing: .04em; text-decoration: none; transition: color .2s ease; }
+.creator-credit strong { color: #e4c185; font-weight: 500; }
+.creator-credit:hover { color: var(--ivory); }
 .back-to-top { display: inline-flex; min-height: 44px; align-items: center; gap: 12px; color: var(--ivory); font-size: .63rem; letter-spacing: .11em; text-decoration: none; text-transform: uppercase; }
 .back-to-top span { color: #e4c185; font-size: 1rem; }
 

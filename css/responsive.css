@@ -68,6 +68,7 @@
   .closing-section h2 br { display: none; }
   .site-footer { min-height: 155px; flex-wrap: wrap; justify-content: space-between; padding: 23px 24px; }
   .site-footer p { order: 3; width: 100%; text-align: center; }
+  .creator-credit { order: 4; width: 100%; text-align: center; }
   .lightbox { grid-template-columns: 40px minmax(0, 1fr) 40px; gap: 4px; padding: 65px 8px 28px; }
   .lightbox__figure { width: 100%; height: min(76vh, 700px); }
   .lightbox__nav { width: 38px; height: 38px; font-size: 1.15rem; }
