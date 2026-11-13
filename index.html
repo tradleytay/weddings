@@ -141,12 +141,17 @@
           <h2 id="rsvp-title">Your place<br>is with us</h2>
           <p class="rsvp-section__copy">Please let us know if you’ll be there to share in our special day.</p>
           <p class="rsvp-section__deadline">Kindly reply by <strong data-rsvp-deadline>30 November 2026</strong></p>
+          <p class="rsvp-instruction">First, enter your name below. Then choose your response and continue via WhatsApp.</p>
+          <div class="rsvp-name-field">
+            <label for="guestName">Your name (required)</label>
+            <input id="guestName" name="guestName" type="text" autocomplete="name" minlength="6" maxlength="80" required>
+          </div>
           <fieldset class="rsvp-choice">
             <legend>Your response</legend>
             <label><input type="radio" name="rsvpResponse" value="accept" checked><span>Joyfully accepts</span></label>
             <label><input type="radio" name="rsvpResponse" value="decline"><span>Regretfully declines</span></label>
           </fieldset>
-          <a class="button button--rust rsvp-button" id="rsvpButton" href="#" aria-disabled="true">
+          <a class="button button--rust rsvp-button is-disabled" id="rsvpButton" href="#" aria-disabled="true">
             RSVP via WhatsApp <span class="button__arrow" aria-hidden="true">↗</span>
           </a>
           <p class="rsvp-help" id="rsvpHelp" aria-live="polite">Our WhatsApp RSVP number will be added soon. Please check back for the link.</p>
