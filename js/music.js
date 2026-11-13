@@ -34,6 +34,15 @@
         audio.pause();
       }
     });
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) audio.pause();
+    });
+    window.addEventListener("pagehide", function () {
+      audio.pause();
+    });
+    document.getElementById("rsvpButton").addEventListener("click", function () {
+      audio.pause();
+    });
     audio.addEventListener("play", function () { setPlaying(true); });
     audio.addEventListener("pause", function () { setPlaying(false); });
     audio.addEventListener("error", showAudioError);
