@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fffff0">
+  <meta name="description" content="Albert and Charlene invite you to celebrate their wedding on 12 December 2026 in Atlantis.">
+  <title>Albert &amp; Charlene — 12 December 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="js/wedding-config.js" defer></script>
+  <script src="js/countdown.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+  <script src="js/rsvp.js" defer></script>
+  <script src="js/music.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to invitation</a>
+
+  <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+    <div class="welcome__frame">
+      <span class="welcome__eyebrow">A day to remember</span>
+      <span class="ornament ornament--small" aria-hidden="true">✳</span>
+      <p class="welcome__invitation">Together with their families</p>
+      <h1 class="welcome__names" id="welcome-title"><span data-first-name>Albert</span> <span class="names-ampersand">&amp;</span> <span data-second-name>Charlene</span></h1>
+      <span class="welcome__rule" aria-hidden="true"></span>
+      <p class="welcome__date" data-wedding-date>12 December 2026</p>
+      <button class="button button--rust welcome__open" id="openInvitation" type="button">
+        <span>Open invitation</span><span class="button__arrow" aria-hidden="true">↗</span>
+      </button>
+      <button class="welcome__skip" id="skipOpening" type="button">Skip the animation</button>
+      <span class="welcome__corner welcome__corner--tl" aria-hidden="true"></span>
+      <span class="welcome__corner welcome__corner--tr" aria-hidden="true"></span>
+      <span class="welcome__corner welcome__corner--bl" aria-hidden="true"></span>
+      <span class="welcome__corner welcome__corner--br" aria-hidden="true"></span>
+    </div>
+    <p class="welcome__caption">With joy in our hearts, we invite you to celebrate with us</p>
+  </section>
+
+  <div class="site-shell" id="siteShell" inert aria-hidden="true">
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Albert and Charlene, back to top">A <span>&amp;</span> C</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle__line"></span><span class="nav-toggle__line"></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <a href="#our-day">Our day</a>
+        <a href="#details">The details</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#rsvp">RSVP</a>
+      </nav>
+      <a class="header-date" href="#countdown" data-wedding-date>12 December 2026</a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="our-day" tabindex="-1" aria-labelledby="hero-title">
+        <div class="hero__image" role="img" aria-label="Albert and Charlene sharing a quiet moment together" id="heroImage"></div>
+        <div class="hero__veil"></div>
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow" data-reveal>With love and great joy</p>
+          <h1 class="hero__title" id="hero-title" data-reveal><span data-first-name>Albert</span> <em>&amp;</em><br><span data-second-name>Charlene</span></h1>
+          <span class="hero__divider" aria-hidden="true" data-reveal>✳</span>
+          <p class="hero__date" data-reveal data-wedding-date>12 December 2026</p>
+          <p class="hero__intro" data-reveal>Request the pleasure of your company<br>as they begin their next chapter together.</p>
+          <a class="text-link hero__link" href="#countdown" data-reveal>Celebrate with us <span aria-hidden="true">↓</span></a>
+        </div>
+        <span class="hero__side-note" aria-hidden="true">A celebration of love · Atlantis</span>
+      </section>
+
+      <section class="countdown-section section-pad" id="countdown" aria-labelledby="countdown-title">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Until we say “I do”</p>
+          <h2 id="countdown-title">The day is drawing near</h2>
+          <span class="ornament" aria-hidden="true">✳</span>
+        </div>
+        <div class="countdown" id="countdownClock" aria-label="Countdown to the wedding">
+          <div class="countdown__unit"><span class="countdown__number" data-days>—</span><span class="countdown__label">Days</span></div>
+          <span class="countdown__dot" aria-hidden="true">·</span>
+          <div class="countdown__unit"><span class="countdown__number" data-hours>—</span><span class="countdown__label">Hours</span></div>
+          <span class="countdown__dot" aria-hidden="true">·</span>
+          <div class="countdown__unit"><span class="countdown__number" data-minutes>—</span><span class="countdown__label">Minutes</span></div>
+          <span class="countdown__dot" aria-hidden="true">·</span>
+          <div class="countdown__unit"><span class="countdown__number" data-seconds>—</span><span class="countdown__label">Seconds</span></div>
+        </div>
+        <p class="countdown__message" id="countdownMessage" aria-live="polite"></p>
+        <p class="countdown__timezone">All times are local to the celebration · Africa/Harare</p>
+      </section>
+
+      <section class="details-section" id="details" aria-labelledby="details-title">
+        <div class="details-section__intro" data-reveal>
+          <p class="eyebrow">The celebration</p>
+          <h2 id="details-title">A day, shared<br>with you</h2>
+          <p>Two moments, one beautiful beginning. We can’t wait to celebrate together.</p>
+          <span class="ornament ornament--light" aria-hidden="true">✳</span>
+        </div>
+        <div class="event-list">
+          <article class="event" data-reveal>
+            <span class="event__number">01</span>
+            <div class="event__body">
+              <p class="eyebrow">The ceremony</p>
+              <h3>Our vows</h3>
+              <p class="event__time" data-ceremony-time>14:00</p>
+              <p class="event__venue" data-ceremony-venue>Old Apostolic Church</p>
+              <p class="event__location" data-ceremony-location>Robinvale, Atlantis</p>
+              <a class="text-link text-link--light" id="ceremonyMap" href="https://www.google.com/maps/search/?api=1&amp;query=Old%20Apostolic%20Church%2C%20Robinvale%2C%20Atlantis" target="_blank" rel="noopener noreferrer">Find the ceremony <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="event__mark" aria-hidden="true">A</span>
+          </article>
+          <article class="event" data-reveal>
+            <span class="event__number">02</span>
+            <div class="event__body">
+              <p class="eyebrow">The reception</p>
+              <h3>Let’s celebrate</h3>
+              <p class="event__time" data-reception-time>15:30</p>
+              <p class="event__venue" data-reception-venue>Sundown Farm</p>
+              <p class="event__location" data-reception-location>R304</p>
+              <a class="text-link text-link--light" id="receptionMap" href="https://www.google.com/maps/search/?api=1&amp;query=Sundown%20Farm%2C%20R304" target="_blank" rel="noopener noreferrer">Find the reception <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="event__mark" aria-hidden="true">C</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">A few moments together</p>
+          <h2 id="gallery-title">Our story in photographs</h2>
+          <span class="ornament" aria-hidden="true">✳</span>
+        </div>
+        <div class="gallery-grid" id="galleryGrid" aria-label="Photographs of Albert and Charlene"></div>
+        <p class="gallery-caption">A little glimpse of the love we’re celebrating.</p>
+      </section>
+
+      <section class="rsvp-section" id="rsvp" aria-labelledby="rsvp-title">
+        <div class="rsvp-section__image" role="img" aria-label="Albert and Charlene enjoying a moment together"></div>
+        <div class="rsvp-section__panel" data-reveal>
+          <p class="eyebrow">We hope you can join us</p>
+          <h2 id="rsvp-title">Your place<br>is with us</h2>
+          <p class="rsvp-section__copy">Please let us know if you’ll be there to share in our special day.</p>
+          <p class="rsvp-section__deadline">Kindly reply by <strong data-rsvp-deadline>30 November 2026</strong></p>
+          <fieldset class="rsvp-choice">
+            <legend>Your response</legend>
+            <label><input type="radio" name="rsvpResponse" value="accept" checked><span>Joyfully accepts</span></label>
+            <label><input type="radio" name="rsvpResponse" value="decline"><span>Regretfully declines</span></label>
+          </fieldset>
+          <a class="button button--rust rsvp-button" id="rsvpButton" href="#" aria-disabled="true">
+            RSVP via WhatsApp <span class="button__arrow" aria-hidden="true">↗</span>
+          </a>
+          <p class="rsvp-help" id="rsvpHelp" aria-live="polite">Our WhatsApp RSVP number will be added soon. Please check back for the link.</p>
+        </div>
+      </section>
+
+      <section class="gift-section section-pad" aria-labelledby="gift-title">
+        <div class="gift-section__inner" data-reveal>
+          <span class="ornament" aria-hidden="true">✳</span>
+          <p class="eyebrow">A note on gifts</p>
+          <h2 id="gift-title">The greatest gift<br>is having you there</h2>
+          <p class="gift-section__message">Your presence on our special day will be the greatest gift of all. However, should you wish to bless us with a gift, we would sincerely appreciate a monetary gift.</p>
+          <span class="gift-section__signoff">With heartfelt thanks</span>
+        </div>
+      </section>
+
+      <section class="notes-section" aria-labelledby="notes-title">
+        <div class="notes-section__heading" data-reveal>
+          <p class="eyebrow">A little note</p>
+          <h2 id="notes-title">Kindly note</h2>
+        </div>
+        <div class="notes-list" data-reveal>
+          <p><span class="notes-list__flower" aria-hidden="true">✳</span> Regretfully, no children.</p>
+          <p><span class="notes-list__flower" aria-hidden="true">✳</span> No alcohol allowed.</p>
+        </div>
+      </section>
+
+      <section class="closing-section" aria-labelledby="closing-title">
+        <div class="closing-section__content" data-reveal>
+          <p class="eyebrow">Until then, with love</p>
+          <h2 id="closing-title">Thank you for sharing<br>this special occasion with us.</h2>
+          <span class="closing-section__ornament" aria-hidden="true">✳</span>
+          <p class="closing-section__signoff">With love,</p>
+          <p class="closing-section__names"><span data-first-name>Albert</span> <em>&amp;</em> <span data-second-name>Charlene</span></p>
+          <p class="closing-section__date" data-wedding-date>12 December 2026</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark wordmark--footer" href="#top">A <span>&amp;</span> C</a>
+      <p>Made with love for our favourite people.</p>
+      <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true" hidden>
+    <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close photo viewer">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button" aria-label="Previous photograph">←</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__image" id="lightboxImage" src="" alt="">
+      <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button" aria-label="Next photograph">→</button>
+  </div>
+
+  <div class="music-player" id="musicPlayer">
+    <audio id="weddingAudio" preload="none"></audio>
+    <button class="music-player__button" id="musicToggle" type="button" aria-pressed="false" aria-label="Play wedding music">
+      <span class="music-player__icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="music-player__label" id="musicLabel">Play our song</span>
+    </button>
+  </div>
+
+  <noscript><p class="noscript-note">Please enable JavaScript to open the invitation and see the live countdown and photo gallery.</p></noscript>
+</body>
+</html>
