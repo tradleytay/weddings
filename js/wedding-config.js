@@ -22,7 +22,7 @@ window.WEDDING = Object.freeze({
   rsvp: {
     deadline: "30 November 2026",
     // Replace with the couple's WhatsApp number in international format, digits only.
-    whatsappNumber: ""
+    whatsappNumber: "260760678894"
   },
   music: {
     path: "wedding%20song.mpeg",

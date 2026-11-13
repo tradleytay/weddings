@@ -27,7 +27,7 @@
       var text = accepted
         ? "Hello " + config.couple.names + "! I would like to confirm my attendance at your wedding on " + config.couple.dateLabel + ". Thank you for the invitation."
         : "Hello " + config.couple.names + ". Thank you so much for the invitation to your wedding on " + config.couple.dateLabel + ". Regretfully, I am unable to attend. Wishing you a beautiful celebration.";
-      button.href = "https://wa.me/" + number + "?text=" + encodeURIComponent(text);
+      button.href = "https://wa.me/260760678894" + number + "?text=" + encodeURIComponent(text);
       button.target = "_blank";
       button.rel = "noopener noreferrer";
       help.textContent = "Your WhatsApp message is ready. You can review it before sending.";
